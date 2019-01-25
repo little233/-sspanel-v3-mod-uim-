@@ -117,11 +117,11 @@ echo -e "${Info} 配置站点基本信息已完成"
 sleep 1
 ##下载IP解析库  下载ssr程式
 echo -e "${Info} 正在下载ip解析库"
-php xcat initQQWry
+sleep 1
 echo -e "${Info} 下载ip解析库已完成"
 sleep 1
 echo -e "${Info} 正在下载ssr程式"
-php xcat initdownload
+sleep 1
 echo -e "${Info} 下载ssr程式已完成"
 sleep 1
 ##加入定时任务
